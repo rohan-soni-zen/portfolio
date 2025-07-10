@@ -6,8 +6,8 @@ import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
 	return [
-		{ title: "New React Router App" },
-		{ name: "description", content: "Welcome to React Router!" },
+		{ title: "Rohan Sony" },
+		{ name: "description", content: "Welcome to my page!" },
 	];
 }
 
@@ -32,7 +32,9 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="pt-40 lg:pt-24 px-8 h-dvh flex flex-col justify-center">
-				<div className="text-9xl font-extrabold">Rohan Sony</div>
+				<div className="text-4xl md:text-6xl lg:text-9xl font-extrabold">
+					Rohan Sony
+				</div>
 				<div>Mathematics and Computing, M.Tech.</div>
 				<div>
 					<a
