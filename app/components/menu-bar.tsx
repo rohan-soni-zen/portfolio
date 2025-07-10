@@ -107,11 +107,11 @@ export function MenuBar() {
 				} to-transparent rounded-3xl z-0 pointer-events-none`}
 				variants={navGlowVariants}
 			/>
-			<ul className="flex items-center gap-2 relative z-10">
+			<ul className="flex items-center gap-2 relative z-10 overflow-scroll">
 				{menuItems.map((item, index) => (
 					<motion.li key={item.label} className="relative">
 						<motion.div
-							className="block rounded-xl overflow-visible group relative"
+							className="block rounded-xl group relative overflow-visible"
 							style={{ perspective: "600px" }}
 							whileHover="hover"
 							initial="initial"
