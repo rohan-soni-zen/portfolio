@@ -239,7 +239,7 @@ export default function Home() {
 								"OpenWeatherMap API",
 							],
 							githubUrl:
-								"https://github.com/rohan-soni-zen/weather-app-expo",
+								"https://github.com/rohan-soni-zen/weather-app",
 							liveUrl:
 								"https://rohan-soni-zen-weather-app.vercel.app",
 						},
